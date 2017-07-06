@@ -1,0 +1,4 @@
+1. when perform overlapping of two biological replicates of peak files:
+    1, find the overlap between two overlapping files by **bedtools closest -a -b marked by the filename: *.ovla.bed
+       $chrom, $strat, $end (which represent the a file mapped in b file), $peakname in a file, $mapped number
+    2, find the gene overlap with gene annotation file by **
